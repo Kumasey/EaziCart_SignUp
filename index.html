@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/Sign In</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="form">
+        <div class="imgs">
+            <img src="./images/Eazicart logo 1.png" width="50" alt="Eazi Cart Logo">
+        </div>
+        <div class="tab-header">
+          <div class="active">New to EaziCart?</div>
+          <div>Already Registered?</div>
+        </div>
+        <div class="tab-content">
+          <div class="tab-body active">
+              <div class="sign-up">SIGN UP WITH.....</div>
+              <div class="sign_up">
+                <div><a href="https://www.google.com"><img src="./images/google.png" alt="google" width="80%"></a></div>
+                <div><a href="https://www.apple.com"><img src="./images/Untitled1.png" alt="apple" width="80%"></a></div>
+                <div><a href="https://www.facebook.com"><img src="./images/facebook.png" alt="facebook" width="80%"></a></div>
+                <div><a href="https://www.twitter.com"><img src="./images/twitter.png" alt="twitter" width="80%"></a></div>
+              </div>
+              <div class="paragraph">
+                <p>Signing up with social is super quick and easy. No extra passwords to remember, no brain fail.<br> Don’t worry, 
+                    we’ll never share your data or post anything on your behalf. We know how annoying it is too.</p>  
+              </div>
+            <div class="form-element">
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="First Name">
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="Last Name">
+            </div>
+            <div class="form-element">
+                <input type="password" placeholder="Password" id="myinput">
+                <span class="eyes" onclick="eyeFunction()">
+                  <i id="hide3" class="fa fa-eye"></i>
+                  <i id="hide4" class="fa fa-eye-slash"></i>
+              </span><br>
+                <label for="input">Must be 10 characters or more</label>
+            </div>
+              <div class="form-element">
+                <input type="date"><br>
+                <label for="date">You need to be 16 or over to use EaziCart</label>
+              </div>
+              <div class="radio">
+                  Mostly Interested in:<br><br>
+                </div>
+                <div class="radios">
+               <input type="radio" value=""> Electronics           
+               <input type="radio" value=""> Fashion 
+               <input type="checkbox">          
+              </div>
+              <div class="radio">
+                  Contact Preferences<br><br>
+                  Tell us which Emails you would like to receive: <button id="buttons">CLEAR</button>
+              </div>
+              <div class="form-elements">
+                  <label for="checkbox">Discount and sales</label>
+                  <input type="checkbox">
+                  <label for="checkbox">New Stuff</label>
+                  <input type="checkbox"></br>
+                  <label for="checkbox">Your exclusives</label>
+                  <input type="checkbox">
+                  <label for="checkbox">EaziCart partners</label>
+                  <input type="checkbox">
+              </div>
+              <div>
+                  <a href="#">Tell me more about these</a>
+              </div>
+              <div><br>
+                <div>
+                    By creating your account, you agree to our Terms and <a href="#">Conditions</a> & <a href="#">Privacy Policy</a> 
+              </div>
+            </div>
+              <div class="form-element">
+              <button>Create Account</button>
+            </div>
+          </div>
+          
+          <div class="tab-body"><div id="log"><B>LOG IN WITH EMAIL ADDRESS</B></div>
+            <div class="form-element">
+              <input type="text" placeholder="Email / Username">
+            </div>
+            <div class="form-element">
+                <input type="password" placeholder="Password" id="myInput">
+                <span class="eye" onclick="myFunction()">
+                  <i id="hide1" class="fa fa-eye"></i>
+                  <i id="hide2" class="fa fa-eye-slash"></i>
+              </span>
+              <div class="form-element">
+              <button>Log In</button>
+            </div>
+            <div><a href="#">Forgot Password?</a></div>
+            <div id="link1">OR</div>
+            <hr class="rounded">
+            <div class="container">
+                <div><a href="https://www.google.com"><img src="./images/google.png" alt="google" width="80%"></a></div>
+                <div><a href="https://www.apple.com"><img src="./images/Untitled1.png" alt="apple" width="80%"></a></p></div><br>
+                <div><a href="https://www.facebook.com"><img src="./images/facebook.png" alt="facebook" width="80%"></a></p></div>
+                <div><a href="https://www.twitter.com"><img src="./images/twitter.png" alt="twitter" width="80%"></a></p></div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <script src="./script.js"></script>
+</body>
+</html>
